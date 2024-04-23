@@ -1,0 +1,29 @@
+body,
+html {
+  font-family: Arial, sans-serif;
+  background: url(images/IMG_0353\ Grande.jpeg) no-repeat center center;
+  background-color: rgb(159, 180, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+#countdown {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50px;
+  width: 600px;
+  max-width: 600px;
+}
+
+#time {
+  font-size: 24px;
+  color: #333;
+}
